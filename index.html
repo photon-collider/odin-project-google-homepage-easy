@@ -7,32 +7,78 @@
   </head>
   <body>
 
-    <div class="logo-image-container">
-      <div class="logo-image">
-        <img src="images/google-logo.png" alt="Google Logo">
+    <header>
+      <nav class="nav-bar">
+        <div class="left-hand-nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+          </ul>
+        </div>
+
+        <div class="right-hand-nav">
+          <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#" class='images-link'>Images</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="logo-image-container">
+        <div class="logo-image">
+          <img src="images/google-logo.png" alt="Google Logo">
+        </div>
+      </div>
+
+      <div class="search-form-container">
+        <form class="" action="somewhere.html" method="post">
+
+          <div class="search-bar-container">
+            <input type="text" name="search-bar" value="" class="search-bar">
+            <input type="submit" name="voice-search"
+                   value="" class="voice-search">
+          </div>
+
+          <div class="form-buttons-container">
+
+            <div class="button-container">
+              <input type="submit" name="search"
+                     value="Google Search" class="button">
+            </div>
+
+            <div class="button-container">
+              <input type="submit" name=""
+                     value="I'm Feeling Lucky" class="button">
+            </div>
+          </div>
+        </form>
       </div>
     </div>
 
+  <footer>
+    <div class="footer-container">
+      <div class="left-footer-links">
+        <ul>
+          <li><a href="#" class='advertising-link'>Advertising</a></li>
+          <li><a href="#" class='business-link'>Business</a></li>
+          <li><a href="#">How Search Works</a></li>
+        </ul>
 
-    <div class="search-form-container">
-      <form class="" action="somewhere.html" method="post">
-
-      <div class="search-bar-container">
-        <input type="text" name="search-bar" value="" class="search-bar">
-        <input type="submit" name="voice-search" value="" class="voice-search" >
       </div>
 
-      <div class="form-buttons-container">
-        <div class="button-container">
-          <input type="submit" name="search" value="Google Search" class="button">
-        </div>
-
-        <div class="button-container">
-          <input type="submit" name="" value="I'm Feeling Lucky" class="button">
-        </div>
+      <div class="right-footer-links">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#" class='terms-link'>Terms</a></li>
+          <li><a href="#" class='settings-link'>Settings</a></li>
+        </ul>
       </div>
-    </form>
-  </div>
+
+
+    </div>
+  </footer>
 
   </body>
 </html>
